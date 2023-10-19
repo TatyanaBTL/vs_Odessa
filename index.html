@@ -3,30 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<form>
-        <p><strong>Уведіть ваше місто</strong></p>
-        <p><input name="city" list="city"></p>
-       </form> 
-       <<form>
-   <p><strong>Уведіть ваше місто</strong></p>
-   <!--  --><p><input name="city" list="city"></p>
-  </form> 
-  <datalist id="city">
-    <option>Апостолове</option>
-    <option>Верхівцеве</option>
-    <option>Верхньодніпровськ</option>
-    <option>Вільногірськ</option>
-    <option>Дніпро</option>
-    <option>Жовті Води</option>
-         </datalist>
-    <form >
-        <a href="https://create.vista.com/ru/unlimited/stock-photos/37052269/stock-photo-examples-business-pyramid-illustration-food-pyramid/       "></a>
-        <input type="button" value="Башня">
-    </form>
-         <a href="https://create.vista.com/ru/unlimited/stock-photos/37052269/stock-photo-examples-business-pyramid-illustration-food-pyramid/
+       <title>Элемент Формы</title>
+  </head>
+  <body>
+  
+<h3>Використання форм для внесення даних</h3>
 
-         "><img src="the-eiffel-tower.jpg" alt="Эйфелева башня" title="Эйфелева башня"></a>
+<form >
+Ім’я:
+<input type="text" name="firstname" placeholder="Введіть ім'я" >
+<br>
+Прізвище: 
+<input type="text" name="lastname" placeholder="Введіть прізвище">
+<br><br>
+Дата народження:
+<input type="date"> 
+<br> <br>
+Стать:
+<br>
+<input type="radio" name="gender" checked > Чоловіча<br>
+<input type="radio" name="gender" >Жіноча
 
+<br><br>
+Місце проживання:
+<input list="citys" name="city" >
+<datalist id ="citys" >
+<option value="Одеса"></option>
+<option value="Київ"></option>
+<option value="Львів"></option>
+<option value="Харьків"></option>
+<option value="Днепр"></option>
+</datalist>
 
+<br> <br>Курси: <br>
+<input type="checkbox" name="option1"> Інформатика <br>
+<input type="checkbox" name="option2"> Економічний аналіз <br>
+<input type="checkbox" name="option2"> Діагностика економічних процесів
+
+<br><br>Пароль:
+<input type="password" maxlength="8" inputmode="numeric">
+<br><br>
+Посилання:
+<br>
+<textarea name="ar"  cols="30" rows="5"></textarea> <br>
+
+<input type="submit" value="Надіслати"> 
+</form>
 
         
     </body>
